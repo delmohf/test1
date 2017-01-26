@@ -1,0 +1,20 @@
+{
+    "name": "delmo/test1",
+    "description": "Just a test package",
+    "type": "project",
+    "authors": [
+        {
+            "name": "gsi-delmo",
+            "email": "delmo@generalsoftwareinc.com"
+        }
+    ],
+    "require": {
+        "generalsoftwareinc/api-exception": "^0.1.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/generalsoftwareinc/api-exception"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "12f9c0858799f27bf994e147131b519a",
+    "content-hash": "e727f6eb6f2d0061bec0954366d6521d",
+    "packages": [
+        {
+            "name": "generalsoftwareinc/api-exception",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/generalsoftwareinc/api-exception.git",
+                "reference": "6063a27ed89421e1f945feee149f25d71d69262f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/generalsoftwareinc/api-exception/zipball/6063a27ed89421e1f945feee149f25d71d69262f",
+                "reference": "6063a27ed89421e1f945feee149f25d71d69262f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GsiTools\\": "src/"
+                }
+            },
+            "description": "Just a custom exception class for APIs",
+            "support": {
+                "source": "https://github.com/generalsoftwareinc/api-exception/tree/v0.1.0",
+                "issues": "https://github.com/generalsoftwareinc/api-exception/issues"
+            },
+            "time": "2016-12-27 17:34:42"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
